@@ -1,0 +1,38 @@
+HTTP Methods:
+GET : Retrieve data from the server
+POST: Create a new resource
+PATCH: Update an existing resource
+DELETE : Remove a resource
+
+API: Application Programming Interface
+
+GET /users => Fetch a list of users
+POST /users => Create a new users
+PUT/users/{id} => Update a specific users
+DELETE /users/{id} => Delere a specific user
+
+API contains headers (meta-data)
+
+Request : Frontend->server
+Response : server->Frontend
+
+Status Codes:
+200 : Ok
+201 : created resource
+400 : Bad Request
+404 : Not found
+500 : Internal Server Error
+
+Types of API:
+Rest API: 
+    client interact using urls
+    Typically uses json
+GraphQL API:
+    one endpoint
+
+Databases:
+Relations : Structured databases (SQL)
+Non-relational : Non-structured databases (MongoDB)
+    Offers more flexibility
+    best for handling large volumes of data
+     
