@@ -23,9 +23,10 @@ app.get('/',(req,res)=>{
     res.send("Welcome to the app")
 })
 
-app.listen(PORT, async ()=>{
+app.listen(PORT, async ()=> {
     console.log(`Server running on port http://localhost:${PORT}`)
     await connect()
 })
+
 
 export default app;
