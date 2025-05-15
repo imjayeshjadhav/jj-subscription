@@ -11,6 +11,7 @@ const connect = async ()=>{
         console.log(`Connected to database in ${NODE_ENV} mode`)
     } catch (error) {
         console.log(error)
+        // eslint-disable-next-line no-undef
         process.exit(1)
     }
 }

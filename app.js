@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended:false}))
 app.use(cookieParser()) // Reads cookies from incoming request for storing user data
 
 app.use('/api/v1/auth', authRouter)
-app.use('/api/v1/user', userRouter)
+app.use('/api/v1/users', userRouter)
 app.use('/api/v1/subscription', subscriptionRouter)
 
 app.use(errorMiddleware)
