@@ -17,7 +17,7 @@ app.use(cookieParser()) // Reads cookies from incoming request for storing user 
 
 app.use('/api/v1/auth', authRouter)
 app.use('/api/v1/users', userRouter)
-app.use('/api/v1/subscription', subscriptionRouter)
+app.use('/api/v1/subscriptions', subscriptionRouter)
 
 app.use(errorMiddleware)
 
